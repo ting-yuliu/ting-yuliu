@@ -1,11 +1,7 @@
-- 👋 Hi, I’m Ting-Yu Liu
-- 👀 I’m interested in data analytics, marketing naalytics, data science.
-- 🌱 I’m currently learning Data Processing and Machine Learning through Python.
-- 💞️ I’m seeking a full-time job as a data analyst after earning my master's degree from the University of Maryland-College Park in May 2022.
-- 📫 How to reach me: ting-yu.liu@marylandsmith.umd.edu
+# UMD-Data-Challenge-2021: Team 6 Abstract
 
+This analysis of the Behavioral Changes during COVID-19 dataset from the UMD National Center for Smart Growth (NCSG) seeks to explore how the lockdown measures between April and July 2020 affected changes in the daily routines of the general population. In order to give further recommendations to help NCSG make decisions on handling the current situation, we used R as our analytics software to build three logistic models, regressing variables such as sex, age, employment type, household size, household type, and marital status on whether respondents changed their commute status, method of transportation, or exercise levels as a result of COVID-19 lockdown measures. 
 
-<!---
-ting-yuliu/ting-yuliu is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+The analysis also incorporates location data from the Smart Location Database to add more context to behavioral changes during the pandemic. The results of the logistic regression model confirmed the existing understanding that employment status was one of the most influential features, but also indicated that household type, road density, and number of children were important factors influencing our target variables. Our report also considers various possible issues with how the provided survey was conducted and how those responses affected our methodology and results. 
+
+It is a representation of initial findings intended to set the stage for further study, so readers and reviewers should consider the potential of this analysis rather than view it as conclusive. Future work including a more diverse dataset that covers additional demographic factors like income level, behavioral changes after the lockdown ends, whether or not the respondent is employed in an essential field, and more detailed road network and transportation information would allow for greater insights.
